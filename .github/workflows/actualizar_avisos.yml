@@ -1,0 +1,36 @@
+name: Actualizar Alquileres La Plata
+
+on:
+  schedule:
+    # Se ejecuta automáticamente cada 6 horas todos los días
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente con 1 clic desde la web de GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  recolectar-avisos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar librería lectora de páginas web (BeautifulSoup)
+        run: pip install beautifulsoup4
+
+      - name: Ejecutar recolector de Casas y PH (Meridiano V y Parque San Martín)
+        run: python scraper_alquileres_lp.py
+
+      - name: Guardar avisos actualizados para la App Android
+        run: |
+          git config --local user.email "bot@alquileres-laplata.app"
+          git config --local user.name "Recolector Automático LP"
+          git add alquileres_filtrados_lp.json
+          git diff --staged --quiet || git commit -m "Actualización automática de avisos La Plata"
+          git push
