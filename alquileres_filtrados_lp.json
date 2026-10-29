@@ -1,6 +1,6 @@
 {
   "repositorio": "gonzalobarreda-debug/alquileres-laplata",
-  "ultima_sincronizacion": "29/10/2026 12:48",
+  "ultima_sincronizacion": "29/10/2026 18:45",
   "total_inmobiliarias_locales_configuradas": 18,
   "total_propiedades": 5,
   "barrios_cubiertos": [
@@ -30,7 +30,7 @@
       "fuente": "Inmobúsqueda",
       "url_original": "https://www.inmobusqueda.com.ar/ficha-ph-calle-18-70-71-meridiano-v-101",
       "imagen_url": null,
-      "fecha_actualizacion": "2026-10-29T12:48:04"
+      "fecha_actualizacion": "2026-10-29T18:45:29"
     },
     {
       "id": "c22163813b70",
@@ -50,7 +50,7 @@
       "fuente": "Alberto Dacal Propiedades",
       "url_original": "https://dacal.com.ar/propiedad/casa-alquiler-parque-san-martin-202",
       "imagen_url": null,
-      "fecha_actualizacion": "2026-10-29T12:48:04"
+      "fecha_actualizacion": "2026-10-29T18:45:29"
     },
     {
       "id": "32ede1237092",
@@ -70,7 +70,7 @@
       "fuente": "Axion Group Bienes Raíces",
       "url_original": "https://www.axionpropiedades.com/propiedad/ph-68-entre-15-y-16-meridiano-303",
       "imagen_url": null,
-      "fecha_actualizacion": "2026-10-29T12:48:04"
+      "fecha_actualizacion": "2026-10-29T18:45:29"
     },
     {
       "id": "601a1758a2c4",
@@ -90,7 +90,7 @@
       "fuente": "Inmobiliaria Silvestri (Sucursal La Plata)",
       "url_original": "https://www.inmobiliariasilvestri.com.ar/p/ph-56-e-26-y-27",
       "imagen_url": null,
-      "fecha_actualizacion": "2026-10-29T12:48:04"
+      "fecha_actualizacion": "2026-10-29T18:45:29"
     },
     {
       "id": "fdbf8195032b",
@@ -110,7 +110,7 @@
       "fuente": "Borau Propiedades",
       "url_original": "https://www.boraupropiedades.com.ar/ficha-duplex-14-e-71-y-72",
       "imagen_url": null,
-      "fecha_actualizacion": "2026-10-29T12:48:04"
+      "fecha_actualizacion": "2026-10-29T18:45:29"
     }
   ]
 }
